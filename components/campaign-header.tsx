@@ -12,6 +12,9 @@ export default function CampaignHeader({ isCampaignPage = false }: { isCampaignP
             <Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Campaigns
             </Link>
+            <Link href="/submissions" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Submissions
+            </Link>
             {isCampaignPage ? <>
               <Link href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 About
