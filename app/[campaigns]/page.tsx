@@ -169,7 +169,11 @@ export default async function CampaignPage({ params }: PageProps) {
       <CampaignHero campaign={campaign} />
       <CampaignContent campaign={campaign} />
       <Footer />
-      <SubscriptionModal />
+      <SubscriptionModal 
+        campaignId={campaign.uid}
+        campaignTitle={campaign.title}
+        campaignUrl={campaign.url}
+      />
     </div>
   )
 }
