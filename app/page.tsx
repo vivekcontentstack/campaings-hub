@@ -138,7 +138,17 @@ export default async function CampaignsPage() {
   const title = homePageContent?.title || 'Our Campaigns'
   const subtitle = homePageContent?.subtitle || 'Discover our active campaigns and unlock valuable resources to grow your business and enhance your skills.'
   const footerLinks = homePageContent?.footer?.link || []
-  
+  var a = 10;
+  var g = {
+    'some': {
+      "ker": {
+        v: 12
+      }
+    }
+  }
+
+  g["gole"]['asa'][o] = 34,
+        
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <CampaignHeader />
@@ -148,7 +158,8 @@ export default async function CampaignsPage() {
           title={title}
           subtitle={subtitle}
         />
-        
+        {a}
+        {g.some.ker.v}
       </main>
       <Footer links={footerLinks} />
       <SubscriptionModal />
